@@ -3,25 +3,40 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
   
-  {{ content }}
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-        {{ post.excerpt }}
-      </li>
+  <h1 class="page-heading">Projects</h1>
+  
+  <div class="row">
+    {% for page in site.pages %}
+    {% if page.title != 'About' %}
+    <div class="col-sm-6 col-md-4">
+      <h2>
+        <a class="post-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+      </h2>
+      {{ page.excerpt }}
+    </div>
+    {% endif %}
     {% endfor %}
-  </ul>
+  </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  <!--<h1 class="page-heading">Posts</h1>-->
+  <!---->
+  <!--{{ content }}-->
+
+  <!--<ul class="post-list">-->
+    <!--{% for post in site.posts %}-->
+      <!--<li>-->
+        <!--{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}-->
+        <!--<span class="post-meta">{{ post.date | date: date_format }}</span>-->
+
+        <!--<h2>-->
+          <!--<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>-->
+        <!--</h2>-->
+        <!--{{ post.excerpt }}-->
+      <!--</li>-->
+    <!--{% endfor %}-->
+  <!--</ul>-->
+
+  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>-->
 
 </div>
