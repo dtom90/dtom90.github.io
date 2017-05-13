@@ -7,14 +7,36 @@ layout: default
   <h1 class="page-heading">Projects</h1>
   
   <div class="row">
-    {% for page in site.pages %}
-    {% if page.path contains 'projects/' %}
+    {% for project in site.pages %}
+    {% if project.path contains 'projects/' %}
     <div class="col-sm-6 col-md-4">
       <div class="thumbnail">
-      <h2>
-        <a class="post-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
-      </h2>
-      {{ page.excerpt }}
+      
+        <h2>
+          <a class="post-link" href="{{ project.url | relative_url }}">{{ project.title | escape }}</a>
+        </h2>
+        
+        <h4>
+          {{ project.description }}
+        </h4>
+  
+        {% if project.demo %}
+        <br>
+        <p>
+          <a href="{{ project.demo }}" target="_blank">github-contributor.mybluemix.net</a>
+        </p>
+        {% endif %}
+  
+        {% if project.repo %}
+        <br>
+        <p>
+          <a href="https://github.com/dtom90/{{ project.repo }}">
+            {% include icon-github.svg %}
+            {{ project.title | escape }}
+          </a>
+        </p>
+        {% endif %}
+        
       </div>
     </div>
     {% endif %}

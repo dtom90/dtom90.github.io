@@ -1,10 +1,11 @@
 ---
 layout: page
 title: "GitHub Contributor"
+description: "Get detailed contribution information on any GitHub user"
+demo: https://github-contributor.mybluemix.net/
+repo: github-contributor
 permalink: /github-contributor
 ---
-
-Query and get detailed contribution information on any GitHub user
 
 ![GitHub Contribuor Example](/assets/github-contributor-example.png)
 
