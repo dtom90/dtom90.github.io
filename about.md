@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+My name is David Thomason. I'm a software developer who is very passionate about writing good code.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+I currently work for IBM as a Software Architect. However, in my free time, I like to engage in projects that interest me, especially open-source projects on GitHub.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Check out some of the projects I've been working on by going to the [home page](/) of this portfolio or to my GitHub profile: {% include icon-github.html username="dtom90" %}
