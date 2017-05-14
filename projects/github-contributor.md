@@ -7,7 +7,7 @@ repo: github-contributor
 permalink: /github-contributor
 ---
 
-![GitHub Contribuor Example](/assets/github-contributor-example.png)
+![GitHub Contribuor Example](/images/github-contributor-example.png)
 
 Try it at: [https://github-contributor.mybluemix.net/](https://github-contributor.mybluemix.net/){:target="_blank"}
 
@@ -16,4 +16,4 @@ Source Code: {% include icon-github.html username="dtom90" %} /
 
 Built with [Ruby on Rails](http://rubyonrails.org/) 
 
-[![Rails Logo](/assets/rails-logo.svg){:width="200px;"}](http://rubyonrails.org/)
+[![Rails Logo](/images/rails-logo.svg){:width="200px;"}](http://rubyonrails.org/)
