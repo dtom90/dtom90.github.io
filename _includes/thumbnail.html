@@ -1,0 +1,28 @@
+<div class="thumbnail">
+    
+    <h2>
+        <a class="post-link" href="{{ project.url | relative_url }}">{{ project.title | escape }}</a>
+    </h2>
+    
+    <h4>
+        {{ project.description }}
+    </h4>
+    
+    {% if project.demo %}
+    <p>
+        <strong>Website:</strong><br>
+        <a href="{{ project.demo }}" target="_blank">{{ project.demo }}</a>
+    </p>
+    {% endif %}
+    
+    {% if project.repo %}
+    <br>
+    <p>
+        <a href="https://github.com/dtom90/{{ project.repo }}">
+            {% include icon-github.svg %}
+            {{ project.title | escape }}
+        </a>
+    </p>
+    {% endif %}
+
+</div>
