@@ -1,9 +1,11 @@
-//
-// Thumbnails
-// --------------------------------------------------
 
 // Custom additions to thumbnail
 .thumbnail {
   max-width: 340px;
   padding: 8px;
+}
+
+// Custom additions to links
+a:link, a:visited {
+  color: #2155c4;
 }
