@@ -1,12 +1,11 @@
 ---
+layout: project
 title: Sonny the Weather Bot
 description: "Sonny, a bot for asking questions about the weather"
 demo: https://sonny-weather-bot.mybluemix.net/
 repo: sonny-weather-bot
 permalink: /sonny-weather-bot
-layout: page
 ---
-[{{ page.demo }}]({{ page.demo }}){:target="_blank"}
 
 ![Sonny Image](images/sonny-weather-bot.jpg)
 
@@ -21,4 +20,3 @@ It is powered by the following APIs:
  - [Watson SpeechToText](https://www.ibm.com/watson/developercloud/speech-to-text.html){:target="_blank"}
  - [Watson TextTo Speech](https://www.ibm.com/watson/developercloud/text-to-speech.html){:target="_blank"}
  
-Source Code: {% include icon-github.html %} [{{ page.repo }}](https://github.com/dtom90/{{ page.repo }}){:target="_blank"}
