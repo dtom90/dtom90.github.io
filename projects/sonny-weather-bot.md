@@ -11,6 +11,10 @@ permalink: /sonny-weather-bot
 
 Sonny is a bot that allows users to ask questions about weather conditions in any part of the world. 
 
+It was featured at CES 2017 as an integration into the Panasonic Digital Mirror:
+
+[![ABC Interview CES](images/abc-interview-ces-thumbnail.png)](http://abcnews.go.com/Technology/video/meet-future-robotics-ces-44609620){:target="_blank"}
+
 This app is written with [Node.js](https://nodejs.org) and [Express](https://expressjs.com/), and is built off of [this Conversation Demo](https://conversation-demo.mybluemix.net/){:target="_blank"}
 
 It is powered by the following APIs:
