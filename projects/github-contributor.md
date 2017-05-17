@@ -2,7 +2,7 @@
 layout: project
 title: GitHub Contributor
 description: "Get detailed contribution information on any GitHub user"
-demo: https://github-contributor.mybluemix.net/
+website: https://github-contributor.mybluemix.net/
 repo: github-contributor
 permalink: /github-contributor
 ---

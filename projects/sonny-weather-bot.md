@@ -2,7 +2,7 @@
 layout: project
 title: Sonny the Weather Bot
 description: "Sonny, a bot for asking questions about the weather"
-demo: https://sonny-weather-bot.mybluemix.net/
+website: https://sonny-weather-bot.mybluemix.net/
 repo: sonny-weather-bot
 permalink: /sonny-weather-bot
 ---
