@@ -3,11 +3,10 @@ layout: project
 title: GitHub Contributor
 description: "Get detailed contribution information on any GitHub user"
 website: https://github-contributor.mybluemix.net/
+image: /images/github-contributor-example.png
 repo: github-contributor
 permalink: /github-contributor
 ---
-
-![GitHub Contribuor Example](/images/github-contributor-example.png)
 
 
 Built with [Ruby on Rails](http://rubyonrails.org/) 

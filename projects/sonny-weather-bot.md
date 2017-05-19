@@ -3,11 +3,10 @@ layout: project
 title: Sonny the Weather Bot
 description: "Sonny, a bot for asking questions about the weather"
 website: https://sonny-weather-bot.mybluemix.net/
+image: /images/sonny-weather-bot.jpg
 repo: sonny-weather-bot
 permalink: /sonny-weather-bot
 ---
-
-![Sonny Image](images/sonny-weather-bot.jpg)
 
 Sonny is a bot that allows users to ask questions about weather conditions in any part of the world. 
 
