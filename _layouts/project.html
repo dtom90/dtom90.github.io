@@ -13,14 +13,8 @@ layout: page
 
 {{ content }}
 
-<br>
-<!--{% if page.repo %}-->
-<!--<p>-->
-  <!--Source Code: {% include icon-github.html username="dtom90" %} / -->
-  <!--<a href="https://github.com/dtom90/{{ page.repo }}">{{ page.repo }}</a>-->
-<!--</p>-->
-<!--{% endif %}-->
 {% if page.repo %}
+<br>
 <p>
   <a href="https://github.com/dtom90/{{ project.repo }}">
     {% include icon-github.svg %}
