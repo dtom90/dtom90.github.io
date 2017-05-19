@@ -16,18 +16,8 @@
     
     {% if project.website %}
     <p>
-        <strong>Website:</strong><br>
+        <br>
         <a href="{{ project.website }}" target="_blank">{{ project.website }}</a>
-    </p>
-    {% endif %}
-    
-    {% if project.repo %}
-    <br>
-    <p>
-        <a href="https://github.com/dtom90/{{ project.repo }}">
-            {% include icon-github.svg %}
-            {{ project.title | escape }}
-        </a>
     </p>
     {% endif %}
     
