@@ -8,7 +8,11 @@ repo: sonny-weather-bot
 permalink: /sonny-weather-bot
 ---
 
-Sonny is a bot that allows users to ask questions about weather conditions in any part of the world. 
+Sonny is a bot that allows users to ask questions about weather conditions in any part of the world.
+
+You can try it out at [{{ page.website }}]({{ page.website }}){:target="_blank"}
+
+![Sonny Screenshot]({{ page.image }})
 
 It was featured at CES 2017 as an integration into the Panasonic Digital Mirror:
 
