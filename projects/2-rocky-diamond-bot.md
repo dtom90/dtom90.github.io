@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Rocky, the Diamond Bot
-description: Rare Carat's Rocky, the world's first Artificial Intelligence Jeweler
+title: Rocky the Diamond Bot
+description: Rare Carat's AI Jeweler
 website: https://www.rarecarat.com/
 image: /images/rarecarat-image.png
 permalink: /rare-carat-rocky
