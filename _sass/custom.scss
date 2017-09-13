@@ -1,9 +1,12 @@
 
 // Custom additions to thumbnail
 .thumbnail {
-  min-height: 344px;
   max-width: 340px;
   padding: 8px;
+}
+
+.proj-thumb {
+  min-height: 344px;
 }
 
 // Custom additions to links
