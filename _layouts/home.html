@@ -4,18 +4,6 @@ layout: default
 
 <div class="home">
   
-  <h1 class="page-heading">Blog Posts</h1>
-  
-  <div class="row">
-    {% for blog in site.pages %}
-    {% if blog.path contains 'blog_posts/' %}
-    <div class="col-sm-6 col-md-6">
-      {% include blog_thumbnail.html blog=blog %}
-    </div>
-    {% endif %}
-    {% endfor %}
-  </div>
-  
   <h1 class="page-heading">Projects</h1>
   
   <div class="row">
@@ -23,6 +11,18 @@ layout: default
     {% if project.path contains 'projects/' %}
     <div class="col-sm-6 col-md-6">
       {% include thumbnail.html project=project %}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+  
+  <h1 class="page-heading">Blog Posts</h1>
+  
+  <div class="row">
+    {% for blog in site.pages %}
+    {% if blog.path contains 'blog_posts/' %}
+    <div class="col-sm-6 col-md-6">
+      {% include blog_thumbnail.html blog=blog %}
     </div>
     {% endif %}
     {% endfor %}

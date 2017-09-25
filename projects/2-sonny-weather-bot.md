@@ -4,7 +4,7 @@ title: Sonny the Weather Bot
 description: "Ask questions about the weather"
 website: https://sonny-weather-bot.mybluemix.net/
 image: /images/sonny-weather-bot.jpg
-repo: sonny-weather-bot
+repo: dtom90/sonny-weather-bot
 permalink: /sonny-weather-bot
 ---
 
