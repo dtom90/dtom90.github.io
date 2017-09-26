@@ -1,7 +1,7 @@
 ---
 layout: project
 title: CyberShop
-description: "Analytics & ML for Consumer Electronics Retail"
+description: Consumer Electronics Retail Store
 website: https://cybershop.mybluemix.net/
 image: /images/CyberShop.png
 repo: IBM-ATAT/CyberShop
