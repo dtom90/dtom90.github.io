@@ -1,17 +1,15 @@
 ---
 layout: page
 ---
-<p>
-  {{ page.description }}
-</p>
-<p>
-  <a href="{{ page.website }}" target="_blank">{{ page.website }}</a>
-</p>
 
 {{ content }}
 
+{% if page.repo %}
 <br>
 <p>
-  Source Code: {% include icon-github.html username="dtom90" %} / 
-  <a href="https://github.com/dtom90/{{ page.repo }}">{{ page.repo }}</a>
+  <a href="https://github.com/{{ page.repo }}">
+    {% include icon-github.svg %}
+    {{ page.title | escape }}
+  </a>
 </p>
+{% endif %}

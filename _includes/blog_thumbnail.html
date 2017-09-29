@@ -1,0 +1,27 @@
+<div class="thumbnail">
+    
+    <h2>
+        <a class="post-link" href="{{ blog.website }}" target="_blank">
+            {{ blog.title | escape }}<img src="/images/medium.png" style="float: right; height: 44px">
+        </a>
+    </h2>
+    
+    <h4>
+        {{ blog.description }}
+    </h4>
+    
+    {% if blog.image %}
+    <div style="height: 160px;line-height: 160px;">
+        <a href="{{ blog.website }}" target="_blank">
+            <img src="{{ blog.image }}">
+        </a>
+    </div>
+    {% endif %}
+    
+    {% if blog.pub_logo %}
+    <a href="{{ blog.pub_link }}" target="_blank">
+        <img src="{{ blog.pub_logo }}" style="width: 100%;">
+    </a>
+    {% endif %}
+    
+</div>

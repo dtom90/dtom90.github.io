@@ -16,4 +16,16 @@ layout: default
     {% endfor %}
   </div>
   
+  <h1 class="page-heading">Blog Posts</h1>
+  
+  <div class="row">
+    {% for blog in site.pages %}
+    {% if blog.path contains 'blog_posts/' %}
+    <div class="col-sm-6 col-md-6">
+      {% include blog_thumbnail.html blog=blog %}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+  
 </div>

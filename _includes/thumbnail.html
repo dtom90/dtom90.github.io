@@ -8,20 +8,16 @@
         {{ project.description }}
     </h4>
     
-    {% if project.website %}
-    <p>
-        <strong>Website:</strong><br>
-        <a href="{{ project.website }}" target="_blank">{{ project.website }}</a>
-    </p>
+    {% if project.image %}
+    <div class="thumb-img">
+        <img src="{{ project.image }}">
+    </div>
     {% endif %}
     
-    {% if project.repo %}
-    <br>
+    {% if project.website %}
     <p>
-        <a href="https://github.com/dtom90/{{ project.repo }}">
-            {% include icon-github.svg %}
-            {{ project.title | escape }}
-        </a>
+        <br>
+        <a href="{{ project.website }}" target="_blank">{{ project.website }}</a>
     </p>
     {% endif %}
     

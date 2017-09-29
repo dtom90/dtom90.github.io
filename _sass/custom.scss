@@ -1,8 +1,18 @@
 
+$thumb-img-height: 200px;
 // Custom additions to thumbnail
 .thumbnail {
   max-width: 340px;
+  height: 344px;
   padding: 8px;
+  .thumb-img{
+    height: $thumb-img-height;
+    line-height: $thumb-img-height;
+    text-align: center;
+    > img {
+      max-height: $thumb-img-height;
+    }
+  }
 }
 
 // Custom additions to links
