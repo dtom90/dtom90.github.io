@@ -1,0 +1,20 @@
+{% assign start = '' %}
+{% if include.t %}
+    {% assign start = '?start=' | append: include.t %}
+{% endif %}
+
+{% assign videoseries = '' %}
+{% if include.list %}
+    {% assign videoseries = 'videoseries?list=' | append: include.list %}
+{% endif %}
+
+{% assign showinfo = '' %}
+{% if include.notitle %}
+    {% assign showinfo = '?showinfo=0' %}
+{% endif %}
+
+<p>
+<div class="video-containter">
+    <iframe src="https://www.youtube.com/embed/{{ videoseries }}{{ include.id }}{{ start }}{{ showinfo }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+</p>

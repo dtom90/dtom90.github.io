@@ -33,3 +33,4 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+  - .idea
