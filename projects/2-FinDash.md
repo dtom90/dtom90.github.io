@@ -2,7 +2,6 @@
 layout: project
 title: FinDash
 description: Financial Advisor Dashboard
-website: https://findash.mybluemix.net/
 thumb_image: /images/FinDash-thumb.png
 image: /images/FinDash.png
 repo: IBM-ATAT/FinDash

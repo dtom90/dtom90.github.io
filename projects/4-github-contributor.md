@@ -2,7 +2,6 @@
 layout: project
 title: GitHub Contributor
 description: "Detailed stats on any GitHub user"
-website: https://github-contributor.mybluemix.net/
 image: /images/github-contributor-example.png
 repo: dtom90/github-contributor
 permalink: /github-contributor

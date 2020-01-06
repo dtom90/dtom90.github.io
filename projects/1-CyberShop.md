@@ -2,7 +2,6 @@
 layout: project
 title: CyberShop
 description: Consumer Electronics Retail Store
-website: https://cybershop.mybluemix.net/
 image: /images/CyberShop.png
 repo: IBM-ATAT/CyberShop
 permalink: /CyberShop
