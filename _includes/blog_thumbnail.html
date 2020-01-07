@@ -1,10 +1,10 @@
-<div class="thumbnail">
+<a class="thumbnail" href="{{ blog.website }}" target="_blank" style="text-decoration: none; color: #152933">
     
-    <h2>
-        <a class="post-link" href="{{ blog.website }}" target="_blank">
-            {{ blog.title | escape }}<img src="/images/medium.png" alt="Medium" style="float: right; height: 44px">
-        </a>
-    </h2>
+    <div style="display: flex;">
+        <img src="/images/medium.png" alt="Medium" style="height: 44px; visibility: hidden">
+        <h2 style="flex: 1">{{ blog.title | escape }}</h2>
+        <img src="/images/medium.png" alt="Medium" style="height: 44px">
+    </div>
     
     <h4>
         {{ blog.description }}
@@ -12,16 +12,14 @@
     
     {% if blog.image %}
     <div style="height: 160px;line-height: 160px;">
-        <a href="{{ blog.website }}" target="_blank">
-            <img src="{{ blog.image }}" alt="{{ blog.title }}">
-        </a>
+        <img src="{{ blog.image }}" alt="{{ blog.title }}">
     </div>
     {% endif %}
     
     {% if blog.pub_logo %}
-    <a href="{{ blog.pub_link }}" target="_blank">
+    <div>
         <img src="{{ blog.pub_logo }}" alt="{{ blog.pub_logo }}" style="width: 100%;">
-    </a>
+    </div>
     {% endif %}
     
-</div>
+</a>
