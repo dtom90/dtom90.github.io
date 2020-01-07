@@ -1,5 +1,6 @@
 $demo-img-height: 200px;
-$dsx-green: #6DEDD8;
+$header-bg-color: #152933;
+$header-text-color: white;
 
 body, h1, h2, h3, h4, h5, h6 {
   font-family: Helvetica, Arial, serif;
@@ -24,9 +25,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-header {
-  background-color: #152933;
+  background-color: $header-bg-color;
   .site-title, .site-title:visited, a:link, a:visited {
-    color: $dsx-green;
+    color: $header-text-color;
     font-weight: 300;
   }
   @extend .space-below;
@@ -91,7 +92,7 @@ blockquote {
 
 .medium-button {
   background-color: rgb(38, 74, 96);
-  color: $dsx-green !important;
+  color: $header-text-color !important;
   font-size: 20px;
   padding: 10px;
   border-radius: 2px;

@@ -1,8 +1,6 @@
-<div class="thumbnail">
+<a class="thumbnail" href="{{ project.url | relative_url }}" style="text-decoration: none; color: #152933">
     
-    <h2>
-        <a class="post-link" href="{{ project.url | relative_url }}">{{ project.title | escape }}</a>
-    </h2>
+    <h2>{{ project.title | escape }}</h2>
     
     <h4>
         {{ project.description }}
@@ -25,4 +23,4 @@
     </p>
     {% endif %}
     
-</div>
+</a>
