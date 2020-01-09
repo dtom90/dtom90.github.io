@@ -1,7 +1,13 @@
 require 'html-proofer'
 
-task :default do
+task default: %w[html_proofer]
+
+task :html_proofer do
   sh 'bundle exec jekyll build'
   options = { assume_extension: true }
   HTMLProofer.check_directory('./_site', options).run
+end
+
+task :dev do
+  sh 'bundle exec jekyll serve'
 end
