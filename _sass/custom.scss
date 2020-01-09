@@ -49,8 +49,8 @@ h1, h2, h3 {
 // Custom additions to thumbnail
 .thumbnail {
   
-  min-height: 344px;
-  width: 352px;
+  height: 310px;
+  max-width: 352px;
   
   padding: 8px;
   margin-right: 20px;
@@ -61,12 +61,18 @@ h1, h2, h3 {
   
   position: relative;
   
-  .image-container {
+  .thumb-img {
     text-align: center;
     > img {
       max-height: $demo-img-height;
     }
   }
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 // Custom additions to links

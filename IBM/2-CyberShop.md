@@ -1,7 +1,7 @@
 ---
 layout: demo
 title: CyberShop
-description: "End-To-End Demo: Consumer Electronics Retail"
+description: "Consumer Electronics Retail"
 image: /images/CyberShop.png
 repo: IBM-DSE/CyberShop
 ---
