@@ -8,8 +8,13 @@
     {% assign hideName = false %}
 {% endif %}
 
-<a href="{{ include.link }}" target="_blank">
-    <img src="/images/logos/{{ imgName }}.png" height="100"/>
+{% assign extension = "png" %}
+{% if include.extension %}
+    {% assign extension = include.extension %}
+{% endif %}
+
+<a href="{{ include.link }}" target="_blank" style="margin-right: 20px">
+    <img src="/images/logos/{{ imgName }}.{{ extension }}" height="100"/>
     {% if hideName %}
     <span>{{ include.tech }}</span>
     {% endif %}

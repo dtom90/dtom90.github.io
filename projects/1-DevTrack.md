@@ -14,6 +14,7 @@ A desktop application built to help developers be more productive
 
 #### App Features:
 - Task management with tagging, reordering, and filtering
+- Note taking with markdown support
 - Timer for [pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) or other time management schemes
 - Activity logging, visualization, and targeting
 
