@@ -10,9 +10,13 @@ Sonny is a bot that allows users to ask questions about weather conditions in an
 
 ![Sonny Screenshot]({{ page.image }})
 
-It was featured at CES 2017 as an integration into the Panasonic Digital Mirror:
+<br/>
 
-[![ABC Interview CES](/images/abc-interview-ces-thumbnail.png)](http://abcnews.go.com/Technology/video/meet-future-robotics-ces-44609620){:target="_blank"}
+## CES 2017
+
+The bot was featured at CES 2017 as an integration into the Panasonic Digital Mirror:
+
+[![ABC Interview CES](/images/ces2017/abc-interview-thumbnail.png)](http://abcnews.go.com/Technology/video/meet-future-robotics-ces-44609620){:target="_blank"}
 
 More Images from CES 2017:
 
@@ -22,12 +26,11 @@ More Images from CES 2017:
 
 ![CES Image 3](/images/ces2017/3.jpg)
 
-This app is written with [Node.js](https://nodejs.org) and [Express](https://expressjs.com/), and is built off of [this Conversation Demo](https://conversation-demo.mybluemix.net/){:target="_blank"}
+<br/>
 
-It is powered by the following APIs:
- - [Weather Underground](https://www.wunderground.com/weather/api/){:target="_blank"}
- - [Watson Conversation](https://www.ibm.com/watson/developercloud/conversation.html){:target="_blank"}
- - [AlchemyLanguage](https://www.ibm.com/watson/developercloud/alchemy-language.html){:target="_blank"}
- - [Watson SpeechToText](https://www.ibm.com/watson/developercloud/speech-to-text.html){:target="_blank"}
- - [Watson TextTo Speech](https://www.ibm.com/watson/developercloud/text-to-speech.html){:target="_blank"}
- 
+## Technology
+
+<h4 style="display: flex; justify-content: space-evenly; flex-wrap: wrap">
+{% include tech_link.html tech="Express" link="https://expressjs.com/" hideName=true %}
+{% include tech_link.html tech="Node.js" extension="svg" link="https://nodejs.org/" hideName=true %}
+</h4>

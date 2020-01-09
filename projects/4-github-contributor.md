@@ -9,6 +9,11 @@ GitHub Contributor is a web application meant to give people more detailed, in-d
 
 ![GitHub Contributor Screenshot]({{ page.image }})
 
-Built with [Ruby on Rails](http://rubyonrails.org/) 
+<br/>
 
-[![Rails Logo](/images/rails-logo.svg){:width="200px;"}](http://rubyonrails.org/)
+## Technology
+
+<h4 style="display: flex; justify-content: space-evenly; flex-wrap: wrap">
+{% include tech_link.html tech="Rails" extension="svg" link="https://rubyonrails.org/" hideName=true %}
+{% include tech_link.html tech="Ruby" extension="svg" link="https://www.ruby-lang.org/" %}
+</h4>

@@ -75,6 +75,16 @@ h1, h2, h3 {
   margin-right: auto;
 }
 
+.larger-icon > svg {
+  width: 28px;
+  height: 28px;
+}
+
+.username {
+  margin-left: 6px;
+  margin-bottom: 6px;
+}
+
 // Custom additions to links
 a:link, a:visited {
   color: #2155c4;

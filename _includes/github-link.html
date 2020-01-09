@@ -1,12 +1,10 @@
-{% assign github_username = site.github_username %}
-{% if include.username %}
-    {% assign github_username = include.username %}
-{% endif %}
-{% if include.repo %}
-    {% assign slash = '/' %}
+{% assign text = include.repo %}
+{% if include.text %}
+    {% assign text = include.text %}
 {% endif %}
 <a href="https://github.com/{{ include.repo }}" target="_blank">
-    <span class="icon icon-github">{% include icon-github.svg %}</span>
-    <span class="username">{{ include.repo }} </span>
-    <span class="glyphicon glyphicon-new-window"></span>
+    <span style="display: flex; align-items: center;">
+        <span class="icon icon-github larger-icon">{% include icon-github.svg %}</span>
+        <span class="username"> {{ text }} <span class="glyphicon glyphicon-new-window"></span></span>
+    </span>
 </a>

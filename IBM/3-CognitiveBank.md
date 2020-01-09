@@ -13,10 +13,24 @@ Using a combination of IBM Watson and IBM Machine Learning, they are able to rap
 
 ![Screenshot]({{ site.baseurl }}{{ page.image }})
 
+<br/>
+
 ## Demo Video
 
 {% include youtubePlayer.html id='LfwjkBxNCTw' %}
 
+<br/>
+
 ## IBM Event
 
 {% include youtubePlayer.html id='v4Ds3PQRt8M' t='5290' %}
+
+<br/>
+
+## Technology
+
+<h4 style="display: flex; justify-content: space-evenly; flex-wrap: wrap">
+{% include tech_link.html tech="Rails" extension="svg" link="https://rubyonrails.org/" hideName=true %}
+{% include tech_link.html tech="Ruby" extension="svg" link="https://www.ruby-lang.org/" %}
+{% include tech_link.html tech="docker" link="https://www.docker.com/" hideName=true %}
+</h4>
