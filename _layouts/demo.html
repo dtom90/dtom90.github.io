@@ -12,10 +12,6 @@ layout: default
     
     <br>
     
-    {% if page.release_page %}
-    <h4 style="text-align: center"><strong>Latest Release:</strong> {% include external_link.html text=page.release_page link=page.release_page %}</h4>
-    {% endif %}
-    
     {% if page.repo %}
     <h3 style="display: flex; justify-content: center;">{% include github-link.html repo=page.repo text="Source Code" %}</h3>
     {% endif %}

@@ -3,7 +3,6 @@ layout: demo
 title: DevTrack
 description: "An app for productive developers"
 image: /images/DevTrack/Home.png
-release_page: https://github.com/dtom90/DevTrack/releases/latest
 repo: dtom90/DevTrack
 ---
 A desktop application built to help developers be more productive
@@ -23,6 +22,17 @@ A desktop application built to help developers be more productive
 <br/>
 
 {% include demo_link.html link="https://davidthomason.com/DevTrack/" %}
+
+<br/>
+
+<h2 style="text-align: center">
+    <strong>
+        <a href="https://github.com/dtom90/DevTrack/releases/latest" target="_blank" class="{{ include.class }}">
+            <span>Download Page </span>
+            <span class="glyphicon glyphicon-new-window"></span>
+        </a>
+    </strong>
+</h2>
 
 <br/>
 
