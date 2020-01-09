@@ -13,11 +13,15 @@ layout: default
     <br>
     
     {% if page.app_link %}
-    <h4><strong>Web Demo:</strong> {% include external_link.html text=page.app_link link=page.app_link %}</h4>
+    <h4 style="text-align: center"><strong>Web Demo:</strong> {% include external_link.html text=page.app_link link=page.app_link %}</h4>
+    {% endif %}
+    
+    {% if page.release_page %}
+    <h4 style="text-align: center"><strong>Latest Release:</strong> {% include external_link.html text=page.release_page link=page.release_page %}</h4>
     {% endif %}
     
     {% if page.repo %}
-    <h4><strong>View in GitHub:</strong>{% include github-link.html repo=page.repo %}</h4>
+    <h4 style="text-align: center"><strong>View in GitHub:</strong>{% include github-link.html repo=page.repo %}</h4>
     {% endif %}
     
   </div>
