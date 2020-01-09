@@ -27,8 +27,10 @@ Tracking and visualization of workout progress over time
 <br/>
 
 #### Built With:
+[![Framework7 Logo](/images/logos/Framework7.png){:height="100px;"}](https://framework7.io/){:target="_blank"}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![Vue.js Logo](/images/logos/Vue.png){:height="100px;"} Vue.js](https://vuejs.org/){:target="_blank"}
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![Vue.js Logo](/images/logos/Electron.png){:height="100px;"} Electron](https://electronjs.org/){:target="_blank"}
+[![Cordova Logo](/images/logos/Cordova.png){:height="100px;"} Apache Cordova](https://cordova.apache.org/){:target="_blank"}
 
 <br/>
