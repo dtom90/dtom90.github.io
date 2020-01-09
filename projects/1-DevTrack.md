@@ -3,7 +3,6 @@ layout: demo
 title: DevTrack
 description: "An app for productive developers"
 image: /images/DevTrack/Home.png
-app_link: https://davidthomason.com/DevTrack/
 release_page: https://github.com/dtom90/DevTrack/releases/latest
 repo: dtom90/DevTrack
 ---
@@ -22,9 +21,15 @@ A desktop application built to help developers be more productive
 
 <br/>
 
-#### Built With:
-[![Vue.js Logo](/images/logos/Vue.png){:height="100px;"} Vue.js](https://vuejs.org/){:target="_blank"}
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![Vue.js Logo](/images/logos/Electron.png){:height="100px;"} Electron](https://electronjs.org/){:target="_blank"}
+{% include demo_link.html link="https://davidthomason.com/DevTrack/" %}
+
+<br/>
+
+## Technology
+
+<h4 style="display: flex; justify-content: space-evenly;">
+{% include tech_link.html tech="Vue.js" imgName="Vue" link="https://vuejs.org/" %}
+{% include tech_link.html tech="Electron" link="https://electronjs.org/" %}
+</h4>
 
 <br/>

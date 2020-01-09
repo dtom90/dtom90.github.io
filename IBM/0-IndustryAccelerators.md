@@ -12,7 +12,7 @@ The industry accelerators that are provided by IBM are a set of artifacts that h
 
 ## Technology
 
-#### Python, Pandas, SciKit Learn, R Shiny, JavaScript
+#### Python, Jupyter, Pandas, SciKit Learn, R Shiny
 
 ## Resources
 

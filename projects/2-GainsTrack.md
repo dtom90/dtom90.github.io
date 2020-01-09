@@ -3,7 +3,6 @@ layout: demo
 title: GainsTrack
 description: "Mobile app for workout tracking"
 image: /images/GainsTrack/Home.png
-app_link: https://davidthomason.com/GainsTrack/
 repo: dtom90/GainsTrack
 ---
 A mobile app for creating, following, and tracking workouts
@@ -22,15 +21,22 @@ Active workout mode for following workout sequence and recording reps and sets
 ![GainsTrack Active1](/images/GainsTrack/Active1.png){:height="600"}
 ![GainsTrack Active2](/images/GainsTrack/Active2.png){:height="600"}
 
-Tracking and visualization of workout progress over time
+History of workout progress over time
+
+![GainsTrack WorkoutHistory](/images/GainsTrack/WorkoutHistory.png){:height="600"}
 
 <br/>
 
-#### Built With:
-[![Framework7 Logo](/images/logos/Framework7.png){:height="100px;"}](https://framework7.io/){:target="_blank"}
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![Vue.js Logo](/images/logos/Vue.png){:height="100px;"} Vue.js](https://vuejs.org/){:target="_blank"}
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![Cordova Logo](/images/logos/Cordova.png){:height="100px;"} Apache Cordova](https://cordova.apache.org/){:target="_blank"}
+{% include demo_link.html link="https://davidthomason.com/GainsTrack/" %}
+
+<br/>
+
+## Technology
+
+<h4 style="display: flex; justify-content: space-evenly;">
+{% include tech_link.html tech="Framework7" link="https://framework7.io/" hideName=true %}
+{% include tech_link.html tech="Vue.js" imgName="Vue" link="https://vuejs.org/" %}
+{% include tech_link.html tech="Cordova" link="https://cordova.apache.org/" %}
+</h4>
 
 <br/>

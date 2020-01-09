@@ -1,0 +1,17 @@
+{% assign imgName = include.tech %}
+{% if include.imgName %}
+    {% assign imgName = include.imgName %}
+{% endif %}
+
+{% assign hideName = true %}
+{% if include.hideName %}
+    {% assign hideName = false %}
+{% endif %}
+
+<a href="{{ include.link }}" target="_blank">
+    <img src="/images/logos/{{ imgName }}.png" height="100"/>
+    {% if hideName %}
+    <span>{{ include.tech }}</span>
+    {% endif %}
+    <span class="glyphicon glyphicon-new-window"></span>
+</a>
