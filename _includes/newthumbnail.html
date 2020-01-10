@@ -1,0 +1,19 @@
+{% assign img = project.image %}
+{% if project.thumb_image %}
+{% assign img = project.thumb_image %}
+{% endif %}
+
+{% if project.title == 'GainsTrack' %}
+{% assign class = "fit-within" %}
+{% endif %}
+
+{% if project.pub_logo %}
+{% assign class = "stretch" %}
+{% endif %}
+<article class="col-6 col-12-xsmall work-item">
+    <a href="{{ project.url | relative_url }}" class="image fit thumb">
+        <img src="{{ img }}" alt="{{ project.title | escape }}" class="{{ class }}"/>
+    </a>
+    <h3>{{ project.title | escape }}</h3>
+    <p>{{ project.description }}</p>
+</article>

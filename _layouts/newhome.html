@@ -17,10 +17,9 @@
 <!-- Header -->
 <header id="header">
     <div class="inner">
-        <a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-        <h1><strong>I am Strata</strong>, a super simple<br />
-            responsive site template freebie<br />
-            crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1>
+        <a href="#" class="image avatar"><img src="images/profile.png" alt="" /></a>
+        <h1><strong>David Thomason</strong><br />
+                    Software Engineer<br />
     </div>
 </header>
 
@@ -30,56 +29,45 @@
     <!-- One -->
     <section id="one">
         <header class="major">
-            <h2>Ipsum lorem dolor aliquam ante commodo<br />
-                magna sed accumsan arcu neque.</h2>
+            <h2>Coding Professional and Enthusiast<br /></h2>
         </header>
-        <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
-        <ul class="actions">
-            <li><a href="#" class="button">Learn More</a></li>
-        </ul>
+        <p>I have been writing code for over 10 years. I love the process of building, testing, and releasing high-quality software.
+           Professionally, I have been involved in many different areas, including performance, chatbots, analytics, and machine learning.
+           In my spare time I like to build my own apps that facilitate my hobbies or help to make me more productive and achieve my goals.</p>
     </section>
     
     <!-- Two -->
     <section id="two">
-        <h2>Recent Work</h2>
+        <h2>Professional Work</h2>
         <div class="row">
-            <article class="col-6 col-12-xsmall work-item">
-                <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-                <h3>Magna sed consequat tempus</h3>
-                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-            </article>
-            <article class="col-6 col-12-xsmall work-item">
-                <a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-                <h3>Ultricies lacinia interdum</h3>
-                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-            </article>
-            <article class="col-6 col-12-xsmall work-item">
-                <a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-                <h3>Tortor metus commodo</h3>
-                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-            </article>
-            <article class="col-6 col-12-xsmall work-item">
-                <a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-                <h3>Quam neque phasellus</h3>
-                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-            </article>
-            <article class="col-6 col-12-xsmall work-item">
-                <a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-                <h3>Nunc enim commodo aliquet</h3>
-                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-            </article>
-            <article class="col-6 col-12-xsmall work-item">
-                <a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-                <h3>Risus ornare lacinia</h3>
-                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-            </article>
+            {% for project in site.pages %}
+                {% if project.path contains 'IBM/' %}
+                    {% include newthumbnail.html project=project %}
+                {% endif %}
+            {% endfor %}
         </div>
-        <ul class="actions">
-            <li><a href="#" class="button">Full Portfolio</a></li>
-        </ul>
+    
+        <h2>Independent Projects</h2>
+        <div class="row">
+            {% for project in site.pages %}
+                {% if project.path contains 'projects/' %}
+                    {% include newthumbnail.html project=project %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    
+        <h2>Blog Posts</h2>
+        <div class="row">
+            {% for project in site.pages %}
+                {% if project.path contains 'blog_posts/' %}
+                    {% include newthumbnail.html project=project %}
+                {% endif %}
+            {% endfor %}
+        </div>
     </section>
     
     <!-- Three -->
+    <!--
     <section id="three">
         <h2>Get In Touch</h2>
         <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
@@ -116,6 +104,7 @@
             </div>
         </div>
     </section>
+    -->
     
     <!-- Four -->
     <!--
@@ -441,13 +430,16 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 <footer id="footer">
     <div class="inner">
         <ul class="icons">
-            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-            <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-            <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+            <li><a href="https://github.com/dtom90" target="_blank" class="icon brands fa-github">
+                <span class="label">Github</span></a></li>
+            <li><a href="https://stackoverflow.com/users/1890389/deltatango" target="_blank" class="icon brands fa-stack-overflow">
+                <span class="label">LinkedIn</span></a></li>
+            <li><a href="https://www.linkedin.com/in/david-thomason-7b347237/" target="_blank" class="icon brands fa-linkedin">
+                <span class="label">LinkedIn</span></a></li>
         </ul>
         <ul class="copyright">
-            <li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            <li><a href="https://github.com/dtom90/dtom90.github.io" target="_blank">View in GitHub</a></li>
+            <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
         </ul>
     </div>
 </footer>
