@@ -7,11 +7,15 @@
 {% assign class = "fit-within" %}
 {% endif %}
 
+{% assign url = project.url %}
+{% assign type = "iframe,1000x600" %}
 {% if project.pub_logo %}
+{% assign url = project.website %}
+{% assign type = "ignore" %}
 {% assign class = "stretch" %}
 {% endif %}
 <article class="col-6 col-12-xsmall work-item">
-    <a href="{{ project.url | relative_url }}" class="image fit thumb">
+    <a href="{{ url | relative_url }}" data-poptrox="{{ type }}" target="_blank" class="image fit thumb">
         <img src="{{ img }}" alt="{{ project.title | escape }}" class="{{ class }}"/>
     </a>
     <h3>{{ project.title | escape }}</h3>
