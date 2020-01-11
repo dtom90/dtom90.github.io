@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: project
 title: Financial Advisor
 description: "Intelligent Advice with Integrated Analytics"
 thumb_image: /images/FinDash-thumb.png
@@ -15,13 +15,13 @@ The Financial Advisor Dashboard web application uses data, analytics, and machin
 
 ## Demo Video
 
-{% include youtubePlayer.html id='XTzEc00jx_E' t='37' %}
+{% include youtube_player.html id='XTzEc00jx_E' t='37' %}
 
 <br/>
 
 ## IBM Event
 
-{% include youtubePlayer.html id='EW55zyzGJYs' t='1167' %}
+{% include youtube_player.html id='EW55zyzGJYs' t='1167' %}
 
 <br/>
 

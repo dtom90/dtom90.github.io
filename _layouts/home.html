@@ -2,39 +2,87 @@
 layout: default
 ---
 
-<div class="home">
+<!-- Header -->
+<header id="header">
+  <div class="inner">
+    <a href="#" class="image avatar"><img src="images/profile.png" alt=""/></a>
+    <h1><strong>David Thomason</strong><br/>
+      Software Engineer<br/>
+  </div>
+</header>
+
+<!-- Main -->
+<div id="main">
   
-  <h1 class="page-heading">IBM</h1>
-  <div class="flex">
-    {% for project in site.pages %}
-    {% if project.path contains 'IBM/' %}
-    <div class="col-sm-6 col-md-4">
+  <!-- Introduction -->
+  <section id="intro">
+    <header class="major">
+      <h2>Coding Professional and Enthusiast<br/></h2>
+    </header>
+    <p>I have been writing code for over 10 years. I love the process of building, testing, and releasing
+      high-quality software.
+      Professionally, I have been involved in many different areas, including performance, chatbots, analytics,
+      and machine learning.
+      In my spare time I like to build my own apps that facilitate my hobbies or help to make me more productive
+      and achieve my goals.</p>
+  </section>
+  
+  <!-- Work -->
+  <section id="work">
+    <h2>Professional Work</h2>
+    <div class="row">
+      {% for project in site.pages %}
+      {% if project.path contains 'IBM/' %}
       {% include thumbnail.html project=project %}
+      {% endif %}
+      {% endfor %}
     </div>
-    {% endif %}
-    {% endfor %}
-  </div>
-  
-  <h1 class="page-heading">Independent Projects</h1>
-  <div class="flex">
-    {% for project in site.pages %}
-    {% if project.path contains 'projects/' %}
-    <div class="col-sm-6 col-md-4">
+    
+    <h2>Independent Projects</h2>
+    <div class="row">
+      {% for project in site.pages %}
+      {% if project.path contains 'projects/' %}
       {% include thumbnail.html project=project %}
+      {% endif %}
+      {% endfor %}
     </div>
-    {% endif %}
-    {% endfor %}
-  </div>
-  
-  <h1 class="page-heading">Blog Posts</h1>
-  <div class="flex">
-    {% for blog in site.pages %}
-    {% if blog.path contains 'blog_posts/' %}
-    <div class="col-sm-6 col-md-4">
-      {% include blog_thumbnail.html blog=blog %}
+    
+    <h2>Blog Posts</h2>
+    <div class="row">
+      {% for project in site.pages %}
+      {% if project.path contains 'blog_posts/' %}
+      {% include thumbnail.html project=project %}
+      {% endif %}
+      {% endfor %}
     </div>
-    {% endif %}
-    {% endfor %}
-  </div>
+  </section>
   
 </div>
+
+<!-- Footer -->
+<footer id="footer">
+  <div class="inner">
+    <ul class="icons">
+      <li><a href="https://github.com/dtom90" target="_blank" class="icon brands fa-github">
+        <span class="label">Github</span></a></li>
+      <li><a href="https://stackoverflow.com/users/1890389/deltatango" target="_blank"
+             class="icon brands fa-stack-overflow">
+        <span class="label">LinkedIn</span></a></li>
+      <li><a href="https://www.linkedin.com/in/david-thomason-7b347237/" target="_blank"
+             class="icon brands fa-linkedin">
+        <span class="label">LinkedIn</span></a></li>
+    </ul>
+    <ul class="copyright">
+      <li><a href="https://github.com/dtom90/dtom90.github.io" target="_blank">View in GitHub</a></li>
+      <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+    </ul>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.poptrox.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>

@@ -1,3 +1,7 @@
 <h2 style="text-align: center">
-    <strong>{% include external_link.html text="Web Demo" link=include.link %}</strong>
+    <strong>
+        <a href="{{ include.link }}" target="_blank" class="{{ include.class }}">
+            <span>{{ include.text }} </span><span class="glyphicon glyphicon-new-window"></span>
+        </a>
+    </strong>
 </h2>

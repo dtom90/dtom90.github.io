@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: project
 title: Cognitive Bank
 description: "Banking with IBM Watson and Machine Learning"
 thumb_image: /images/CognitiveBank-dashboard.png
@@ -17,13 +17,13 @@ Using a combination of IBM Watson and IBM Machine Learning, they are able to rap
 
 ## Demo Video
 
-{% include youtubePlayer.html id='LfwjkBxNCTw' %}
+{% include youtube_player.html id='LfwjkBxNCTw' %}
 
 <br/>
 
 ## IBM Event
 
-{% include youtubePlayer.html id='v4Ds3PQRt8M' t='5290' %}
+{% include youtube_player.html id='v4Ds3PQRt8M' t='5290' %}
 
 <br/>
 

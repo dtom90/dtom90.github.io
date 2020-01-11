@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: project
 title: CyberShop
 description: "Consumer Electronics Retail"
 image: /images/CyberShop.png
@@ -14,7 +14,7 @@ CyberShop is a consumer electronics retail store that uses a full set of end-to-
 
 ## Demo Video
 
-{% include youtubePlayer.html id='0yq87nD38aI' t='111' %}
+{% include youtube_player.html id='0yq87nD38aI' t='111' %}
 
 <br/>
 

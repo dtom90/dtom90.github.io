@@ -1,15 +1,21 @@
 ---
-layout: page
+layout: default
 ---
+<div class="project">
+  
+  <header class="project-header">
+    <h1 class="project-title">{{ page.title | escape }}</h1>
+  </header>
+  
+  <div class="project-content">
+    {{ content }}
+    
+    <br>
+    
+    {% if page.repo %}
+    <h3 style="display: flex; justify-content: center;">{% include github_link.html repo=page.repo text="Source Code" %}</h3>
+    {% endif %}
+    
+  </div>
 
-{{ content }}
-
-{% if page.repo %}
-<br>
-<p>
-  <a href="https://github.com/{{ page.repo }}">
-    {% include icon-github.svg %}
-    {{ page.title | escape }}
-  </a>
-</p>
-{% endif %}
+</div>

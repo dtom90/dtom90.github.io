@@ -1,3 +1,3 @@
 ---
-layout: newhome
+layout: home
 ---

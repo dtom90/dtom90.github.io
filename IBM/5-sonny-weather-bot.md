@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: project
 title: Sonny the Weather Bot
 description: "Ask questions about the weather"
 image: /images/sonny-weather-bot.jpg

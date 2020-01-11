@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: project
 title: GainsTrack
 description: "Mobile app for workout tracking"
 image: /images/GainsTrack/Home.png

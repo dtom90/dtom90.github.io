@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: project
 title: DevTrack
 description: "An app for productive developers"
 image: /images/DevTrack/Home.png

@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: project
 title: Industry Accelerators
 description: "Data science resources that help address common business problems"
 image: /images/IndustryAccelerators/StreamingAnalyticsDashboard.png
