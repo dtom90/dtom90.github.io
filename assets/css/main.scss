@@ -691,8 +691,9 @@ $size-header-pad: 4em;
 			}
 			
 			.stretch {
-				width: 120%;
-				height: 100%;
+				width: auto;
+				min-width: 100%;
+				min-height: 100%;
 			}
 			
 			.fit-within {

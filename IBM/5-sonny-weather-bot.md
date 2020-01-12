@@ -30,7 +30,7 @@ More Images from CES 2017:
 
 ## Technology
 
-<h4 style="display: flex; justify-content: space-evenly; flex-wrap: wrap">
+<div class="flex">
 {% include tech_link.html tech="Express" link="https://expressjs.com/" hideName=true %}
 {% include tech_link.html tech="Node.js" extension="svg" link="https://nodejs.org/" hideName=true %}
-</h4>
+</div>

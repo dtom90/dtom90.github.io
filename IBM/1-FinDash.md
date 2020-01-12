@@ -27,10 +27,10 @@ The Financial Advisor Dashboard web application uses data, analytics, and machin
 
 ## Technology
 
-<h4 style="display: flex; justify-content: space-evenly; flex-wrap: wrap">
+<div class="flex">
 {% include tech_link.html tech="React" extension="svg" link="https://reactjs.org/" %}
 {% include tech_link.html tech="Express" link="https://expressjs.com/" hideName=true %}
 {% include tech_link.html tech="Node.js" extension="svg" link="https://nodejs.org/" hideName=true %}
 {% include tech_link.html tech="Db2" link="https://www.ibm.com/analytics/db2" hideName=true %}
 {% include tech_link.html tech="docker" link="https://www.docker.com/" hideName=true %}
-</h4>
+</div>

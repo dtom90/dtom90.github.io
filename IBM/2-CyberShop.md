@@ -20,9 +20,9 @@ CyberShop is a consumer electronics retail store that uses a full set of end-to-
 
 ## Technology
 
-<h4 style="display: flex; justify-content: space-evenly; flex-wrap: wrap">
+<div class="flex">
 {% include tech_link.html tech="Rails" extension="svg" link="https://rubyonrails.org/" hideName=true %}
 {% include tech_link.html tech="Ruby" extension="svg" link="https://www.ruby-lang.org/" %}
 {% include tech_link.html tech="Db2" link="https://www.ibm.com/analytics/db2" hideName=true %}
 {% include tech_link.html tech="docker" link="https://www.docker.com/" hideName=true %}
-</h4>
+</div>
