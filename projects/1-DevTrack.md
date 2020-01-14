@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: project
 title: DevTrack
 description: "An app for productive developers"
 image: /images/DevTrack/Home.png
@@ -14,33 +14,22 @@ A desktop application built to help developers be more productive
 #### App Features:
 - Task management with tagging, reordering, and filtering
 - Note taking with markdown support
-- Timer for [pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) or other time management schemes
+- Timer for [pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique){:target="_blank"} or other time management schemes
 - Activity logging, visualization, and targeting
 
 ![DevTrack Activity](/images/DevTrack/Dashboard.png)
 
-<br/>
+{% include external_link.html text="Web Demo" link="https://davidthomason.com/DevTrack/" %}
 
-{% include demo_link.html link="https://davidthomason.com/DevTrack/" %}
-
-<br/>
-
-<h2 style="text-align: center">
-    <strong>
-        <a href="https://github.com/dtom90/DevTrack/releases/latest" target="_blank" class="{{ include.class }}">
-            <span>Download Page </span>
-            <span class="glyphicon glyphicon-new-window"></span>
-        </a>
-    </strong>
-</h2>
-
-<br/>
+<p style="text-align: center; font-size: 24px;">
+    <a href="https://github.com/dtom90/DevTrack/releases/latest" target="_blank" class="{{ include.class }}">
+        <span>Download Page </span>
+    </a>
+</p>
 
 ## Technology
 
-<h4 style="display: flex; justify-content: space-evenly;">
+<div class="flex">
 {% include tech_link.html tech="Vue.js" imgName="Vue" link="https://vuejs.org/" %}
 {% include tech_link.html tech="Electron" link="https://electronjs.org/" %}
-</h4>
-
-<br/>
+</div>

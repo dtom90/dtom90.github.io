@@ -1,26 +1,23 @@
-<a class="thumbnail" href="{{ project.url | relative_url }}" style="text-decoration: none; color: #152933">
-    
-    <h2>{{ project.title | escape }}</h2>
-    
-    <h4>
-        {{ project.description }}
-    </h4>
-    
-    {% if project.thumb_image %}
-    <div class="thumb-img">
-        <img src="{{ project.thumb_image }}" alt="{{ project.title }}">
-    </div>
-    {% elsif project.image %}
-    <div class="thumb-img">
-        <img src="{{ project.image }}" alt="{{ project.title }}">
-    </div>
-    {% endif %}
-    
-    {% if project.website %}
-    <p>
-        <br>
-        <a href="{{ project.website }}" target="_blank">{{ project.website }}</a>
-    </p>
-    {% endif %}
-    
-</a>
+{% assign img = project.image %}
+{% if project.thumb_image %}
+{% assign img = project.thumb_image %}
+{% endif %}
+
+{% if project.title == 'GainsTrack' %}
+{% assign class = "fit-within" %}
+{% endif %}
+
+{% assign url = project.url %}
+{% assign type = "iframe,1000x600" %}
+{% if project.pub_logo %}
+{% assign url = project.website %}
+{% assign type = "ignore" %}
+{% assign class = "stretch" %}
+{% endif %}
+<article class="col-6 col-12-xsmall work-item">
+    <a href="{{ url | relative_url }}" data-poptrox="{{ type }}" target="_blank" class="image fit thumb">
+        <img src="{{ img }}" alt="{{ project.title | escape }}" class="{{ class }}"/>
+    </a>
+    <h3>{{ project.title | escape }}</h3>
+    <p>{{ project.description }}</p>
+</article>

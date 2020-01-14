@@ -1,12 +1,12 @@
 ---
-layout: demo
+layout: project
 title: Sonny the Weather Bot
 description: "Ask questions about the weather"
 image: /images/sonny-weather-bot.jpg
 repo: dtom90/sonny-weather-bot
 ---
 
-Sonny is a bot that allows users to ask questions about weather conditions in any part of the world.
+Sonny is a bot that allows users to ask questions about weather conditions in any part of the world. It uses [Watson Assistant](https://www.ibm.com/cloud/watson-assistant/){:target="_blank"} to determine user intent. Speech interactivity is achieved using [Watson Speech to Text](https://www.ibm.com/cloud/watson-speech-to-text){:target="_blank"} and [Watson Text to Speech](https://www.ibm.com/watson/services/text-to-speech/){:target="_blank"}.
 
 ![Sonny Screenshot]({{ page.image }})
 
@@ -30,7 +30,7 @@ More Images from CES 2017:
 
 ## Technology
 
-<h4 style="display: flex; justify-content: space-evenly; flex-wrap: wrap">
+<div class="flex">
 {% include tech_link.html tech="Express" link="https://expressjs.com/" hideName=true %}
 {% include tech_link.html tech="Node.js" extension="svg" link="https://nodejs.org/" hideName=true %}
-</h4>
+</div>

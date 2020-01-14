@@ -1,15 +1,30 @@
 ---
-layout: page
+layout: default
 ---
+<div class="project container">
+  
+  <header>
+    <h1>{{ page.title | escape }}</h1>
+  </header>
+  
+  <div>
+    <p class="center">
+      {{ page.long_description }}
+    </p>
+    
+    {{ content }}
+    
+    {% if page.repo %}
+    <br/>
+    <br/>
+    <p style="display: flex; justify-content: center;">
+      <a href="https://github.com/{{ page.repo }}" target="_blank">
+        <span class="icon brands fa-github"></span>
+        <span class="username">Source Code</span>
+      </a>
+    </p>
+    {% endif %}
+    
+  </div>
 
-{{ content }}
-
-{% if page.repo %}
-<br>
-<p>
-  <a href="https://github.com/{{ page.repo }}">
-    {% include icon-github.svg %}
-    {{ page.title | escape }}
-  </a>
-</p>
-{% endif %}
+</div>

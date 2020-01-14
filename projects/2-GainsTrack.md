@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: project
 title: GainsTrack
 description: "Mobile app for workout tracking"
 image: /images/GainsTrack/Home.png
@@ -8,8 +8,6 @@ repo: dtom90/GainsTrack
 A mobile app for creating, following, and tracking workouts
 
 ![GainsTrack Home]({{ page.image }}){:height="600"}{:class="center-img"}
-
-<br/>
 
 #### App Features:
 Workout creation of custom exercise sequence with target reps, sets, and rest
@@ -25,18 +23,12 @@ History of workout progress over time
 
 ![GainsTrack WorkoutHistory](/images/GainsTrack/WorkoutHistory.png){:height="600"}
 
-<br/>
-
-{% include demo_link.html link="https://davidthomason.com/GainsTrack/" %}
-
-<br/>
+{% include external_link.html text="Web Demo" link="https://davidthomason.com/GainsTrack/" %}
 
 ## Technology
 
-<h4 style="display: flex; justify-content: space-evenly;">
+<div class="flex">
 {% include tech_link.html tech="Framework7" link="https://framework7.io/" hideName=true %}
 {% include tech_link.html tech="Vue.js" imgName="Vue" link="https://vuejs.org/" %}
 {% include tech_link.html tech="Cordova" link="https://cordova.apache.org/" %}
-</h4>
-
-<br/>
+</div>

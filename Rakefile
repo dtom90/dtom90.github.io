@@ -4,7 +4,12 @@ task default: %w[html_proofer]
 
 task :html_proofer do
   sh 'bundle exec jekyll build'
-  options = { assume_extension: true }
+  options = {
+    assume_extension: true,
+    typhoeus: {
+      ssl_verifypeer: false
+    }
+  }
   HTMLProofer.check_directory('./_site', options).run
 end
 

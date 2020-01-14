@@ -1,12 +1,12 @@
 ---
-layout: demo
-title: Industry Accelerators
+layout: project
+title: Industry Accelerators for Cloud Pak for Data 
 description: "Data science resources that help address common business problems"
 image: /images/IndustryAccelerators/StreamingAnalyticsDashboard.png
 repo: IBM/Industry-Accelerators
 ---
 
-The industry accelerators that are provided by IBM are a set of artifacts that help address common business issues.
+The Industry Accelerators for Cloud Pak for Data are a set of artifacts that include software, data models, and data science assets that help address common business issues using data and AI.
 
 ![Streaming Analytics Dashboard]({{ page.image }})
 
@@ -22,28 +22,18 @@ The accelerators also include sample data science assets that you can use to acc
 
 ## Technology
 
-<h4 style="display: flex; justify-content: space-evenly; flex-wrap: wrap">
+<div class="flex">
 {% include tech_link.html tech="Python" link="https://www.python.org/" hideName=true %}
 {% include tech_link.html tech="Jupyter" link="https://jupyter.org/" hideName=true %}
 {% include tech_link.html tech="pandas" extension="svg" link="https://pandas.pydata.org/" hideName=true %}
 {% include tech_link.html tech="scikit-learn" extension="svg" link="https://scikit-learn.org/" hideName=true %}
 {% include tech_link.html tech="Shiny" imgName="RStudio" link="https://shiny.rstudio.com/" %}
-</h4>
+</div>
 
 <br/>
 
 ## Additional Resources
 
-<h3 style="text-align: center;">
-    <a href="https://www.ibm.com/support/producthub/icpdata/docs/view/industry-accelerators/SSQNUZ_current/cpd/svc/industry-accel-svc.html?t=Industry%2520accelerators&p=industry-accelerators" target="_blank">
-        <span>Product Page</span>
-        <span class="glyphicon glyphicon-new-window"></span>
-    </a>
-</h3>
+{% include external_link.html text="Product Page" link="https://www.ibm.com/support/producthub/icpdata/docs/view/industry-accelerators/SSQNUZ_current/cpd/svc/industry-accel-svc.html?t=Industry%2520accelerators&p=industry-accelerators" %}
 
-<h3 style="text-align: center;">
-    <a href="https://community.ibm.com/community/user/cloudpakfordata/viewdocument/industry-accelerators-for-cloud-pak?CommunityKey=c0c16ff2-10ef-4b50-ae4c-57d769937235&tab=librarydocuments" target="_blank">
-        <span>Community Page</span>
-        <span class="glyphicon glyphicon-new-window"></span>
-    </a>
-</h3>
+{% include external_link.html text="Community Page" link="https://community.ibm.com/community/user/cloudpakfordata/viewdocument/industry-accelerators-for-cloud-pak?CommunityKey=c0c16ff2-10ef-4b50-ae4c-57d769937235&tab=librarydocuments" %}
