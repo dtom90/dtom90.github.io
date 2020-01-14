@@ -6,7 +6,9 @@ task :html_proofer do
   sh 'bundle exec jekyll build'
   options = {
     assume_extension: true,
-    ssl_verifypeer: false
+    typhoeus: {
+      ssl_verifypeer: false
+    }
   }
   HTMLProofer.check_directory('./_site', options).run
 end
