@@ -6,7 +6,7 @@ image: /images/sonny-weather-bot.jpg
 repo: dtom90/sonny-weather-bot
 ---
 
-Sonny is a bot that allows users to ask questions about weather conditions in any part of the world.
+Sonny is a bot that allows users to ask questions about weather conditions in any part of the world. It uses [Watson Assistant](https://www.ibm.com/cloud/watson-assistant/){:target="_blank"} to determine user intent. Speech interactivity is achieved using [Watson Speech to Text](https://www.ibm.com/cloud/watson-speech-to-text){:target="_blank"} and [Watson Text to Speech](https://www.ibm.com/watson/services/text-to-speech/){:target="_blank"}.
 
 ![Sonny Screenshot]({{ page.image }})
 

@@ -1,12 +1,12 @@
 ---
 layout: project
-title: Industry Accelerators
+title: Industry Accelerators for Cloud Pak for Data 
 description: "Data science resources that help address common business problems"
 image: /images/IndustryAccelerators/StreamingAnalyticsDashboard.png
 repo: IBM/Industry-Accelerators
 ---
 
-The industry accelerators that are provided by IBM are a set of artifacts that help address common business issues.
+The Industry Accelerators for Cloud Pak for Data are a set of artifacts that include software, data models, and data science assets that help address common business issues using data and AI.
 
 ![Streaming Analytics Dashboard]({{ page.image }})
 

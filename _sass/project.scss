@@ -1,13 +1,15 @@
-$demo-img-height: 200px;
-$header-bg-color: #152933;
-$header-text-color: white;
-
 .project {
   
   padding: 20px;
   
-  h1, h2, h3 {
+  color: #787878;
+  
+  .center {
     text-align: center;
+  }
+  
+  h1, h2, h3 {
+    @extend .center
   }
   
   .flex {
