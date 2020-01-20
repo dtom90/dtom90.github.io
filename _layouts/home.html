@@ -41,7 +41,7 @@ layout: default
     <h2>Independent Projects</h2>
     <div class="row">
       {% for project in site.pages %}
-      {% if project.path contains 'projects/' %}
+      {% if project.path contains 'Projects/' %}
       {% include thumbnail.html project=project %}
       {% endif %}
       {% endfor %}
