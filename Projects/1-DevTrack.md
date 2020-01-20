@@ -29,7 +29,24 @@ A desktop application built to help developers be more productive
 
 ## Technology
 
+### Application
 <div class="flex">
 {% include tech_link.html tech="Vue.js" imgName="Vue" link="https://vuejs.org/" %}
+{% include tech_link.html tech="Bootstrap" extension="svg" link="https://getbootstrap.com/" %}
+{% include tech_link.html tech="Vuex" link="https://vuex.vuejs.org/" %}
 {% include tech_link.html tech="Electron" link="https://electronjs.org/" %}
+</div>
+
+### Testing
+<div class="flex">
+{% include tech_link.html tech="ESLint" extension="svg" link="https://eslint.org/" %}
+{% include tech_link.html tech="Jest" link="https://jestjs.io/" %}
+{% include tech_link.html tech="TestCafé" link="https://devexpress.github.io/testcafe/" hideName=true %}
+</div>
+
+### Continuous Integration
+<div class="flex">
+{% include tech_link.html tech="docker" link="https://www.docker.com/" hideName=true %}
+{% include tech_link.html tech="CircleCI" link="https://circleci.com/" hideName=true %}
+{% include tech_link.html tech="TravisCI" link="https://travis-ci.org/" hideName=true %}
 </div>

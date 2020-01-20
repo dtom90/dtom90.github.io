@@ -15,10 +15,11 @@ A web application for creating lists and adding checkable items
 
 ## Technology
 
-### Front-end
+### Application
 <div class="flex">
 {% include tech_link.html tech="Vue.js" imgName="Vue" link="https://vuejs.org/" %}
 {% include tech_link.html tech="Vuetify" link="https://vuetifyjs.com/" %}
+{% include tech_link.html tech="Vuex" link="https://vuex.vuejs.org/" %}
 </div>
 
 ### Testing

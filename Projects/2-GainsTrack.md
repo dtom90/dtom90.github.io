@@ -27,8 +27,21 @@ History of workout progress over time
 
 ## Technology
 
+### Application
 <div class="flex">
-{% include tech_link.html tech="Framework7" link="https://framework7.io/" hideName=true %}
 {% include tech_link.html tech="Vue.js" imgName="Vue" link="https://vuejs.org/" %}
+{% include tech_link.html tech="Framework7" link="https://framework7.io/" hideName=true %}
+{% include tech_link.html tech="Vuex" link="https://vuex.vuejs.org/" %}
 {% include tech_link.html tech="Cordova" link="https://cordova.apache.org/" %}
+</div>
+
+### Testing
+<div class="flex">
+{% include tech_link.html tech="ESLint" extension="svg" link="https://eslint.org/" %}
+{% include tech_link.html tech="TestCafé" link="https://devexpress.github.io/testcafe/" hideName=true %}
+</div>
+
+### Continuous Integration
+<div class="flex">
+{% include tech_link.html tech="TravisCI" link="https://travis-ci.org/" hideName=true %}
 </div>
