@@ -30,7 +30,15 @@ More Images from CES 2017:
 
 ## Technology
 
+### Application
 <div class="flex">
 {% include tech_link.html tech="Express" link="https://expressjs.com/" hideName=true %}
 {% include tech_link.html tech="Node.js" extension="svg" link="https://nodejs.org/" hideName=true %}
+</div>
+
+### APIs
+<div class="flex">
+{% include tech_link.html tech="Watson Assistant" link="https://www.ibm.com/cloud/watson-assistant/" %}
+{% include tech_link.html tech="Watson Speech to Text" link="https://www.ibm.com/cloud/watson-speech-to-text" %}
+{% include tech_link.html tech="Watson Text to Speech" link="https://www.ibm.com/cloud/watson-text-to-speech" %}
 </div>

@@ -32,5 +32,6 @@ Using a combination of IBM Watson and IBM Machine Learning, they are able to rap
 <div class="flex">
 {% include tech_link.html tech="Rails" extension="svg" link="https://rubyonrails.org/" hideName=true %}
 {% include tech_link.html tech="Ruby" extension="svg" link="https://www.ruby-lang.org/" %}
+{% include tech_link.html tech="Watson Assistant" link="https://www.ibm.com/cloud/watson-assistant/" %}
 {% include tech_link.html tech="docker" link="https://www.docker.com/" hideName=true %}
 </div>
