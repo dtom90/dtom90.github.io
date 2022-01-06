@@ -9,10 +9,6 @@ A web application for creating lists and adding checkable items
 
 ![ListVue Home]({{ page.image }})
 
-<br>
-{% include external_link.html text="Web Demo" link="https://davidthomason.com/ListVue/" %}
-<br>
-
 ## Technology
 
 ### Application
