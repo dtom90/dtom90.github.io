@@ -31,9 +31,3 @@ The accelerators also include sample data science assets that you can use to acc
 </div>
 
 <br/>
-
-## Additional Resources
-
-{% include external_link.html text="Product Page" link="https://www.ibm.com/support/producthub/icpdata/docs/view/industry-accelerators/SSQNUZ_current/cpd/svc/industry-accel-svc.html?t=Industry%2520accelerators&p=industry-accelerators" %}
-
-{% include external_link.html text="Community Page" link="https://community.ibm.com/community/user/cloudpakfordata/viewdocument/industry-accelerators-for-cloud-pak?CommunityKey=c0c16ff2-10ef-4b50-ae4c-57d769937235&tab=librarydocuments" %}
