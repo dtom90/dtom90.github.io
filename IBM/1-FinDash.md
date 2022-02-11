@@ -19,12 +19,6 @@ The Financial Advisor Dashboard web application uses data, analytics, and machin
 
 <br/>
 
-## IBM Event
-
-{% include youtube_player.html id='EW55zyzGJYs' t='1167' %}
-
-<br/>
-
 ## Technology
 
 <div class="flex">
