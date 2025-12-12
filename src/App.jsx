@@ -6,6 +6,7 @@ function App() {
       <img src="/images/profile.png" alt="David Thomason" className="profile-image" />
       <h1>David Thomason</h1>
       <p>Welcome to my website.</p>
+      <p>I am a software engineer</p>
     </div>
   )
 }
