@@ -1,0 +1,52 @@
+## General
+- **project_type**: React + Vite single-page app, deployed to GitHub Pages under `dtom90.github.io`.
+- **languages**: JavaScript/JSX (ESM), CSS; avoid adding TypeScript unless explicitly requested.
+- **style**:
+  - Prefer functional React components and hooks.
+  - Keep components small and presentational where possible.
+  - Use modern JS (ES2015+) and avoid legacy patterns like class components.
+- **files_scope**:
+  - Treat `src/` and `public/` as the primary active code and asset directories.
+  - The `old/` directory contains legacy Jekyll content; do not modify it unless the user explicitly asks.
+
+## Formatting & Linting
+- **javascript**:
+  - Use 2-space indentation.
+  - Prefer `const` and `let` over `var`.
+  - Use strict equality (`===`, `!==`) unless there is a clear reason not to.
+  - Prefer named exports or default exports consistently per file; keep current style when editing.
+- **react**:
+  - Use JSX with double quotes for props where consistent with existing code.
+  - Keep components as pure as possible and avoid unnecessary state.
+- **css**:
+  - Prefer editing existing `App.css`, `index.css`, and other existing CSS files rather than adding new CSS frameworks.
+  - Keep class naming consistent with the current project (no large-scale renames unless requested).
+
+## Tools & Commands
+- **runtime**: Prefer Bun (`bun`) over npm for scripts and package management.
+- **dev_server**: Use `bun run dev` for local development.
+- **build**: Use `bun run build` for production builds.
+- **preview**: Use `bun run preview` to test the production build locally.
+- Do not add new scripts or dependencies without a clear, explained benefit or explicit user request.
+
+## GitHub Pages / Deployment
+- Assume deployment is via GitHub Pages from the built output (e.g., `dist/`).
+- Keep paths and assets compatible with static hosting (avoid server-only APIs).
+- Avoid introducing features that need a custom backend unless the user explicitly wants it.
+
+## Assistant Behavior
+- Before making non-trivial code changes, briefly state goals and the high-level approach.
+- Prefer modifying existing components (`App.jsx`, `MainSection.jsx`, `ProfileSection.jsx`) rather than introducing many new components, unless it clearly improves structure.
+- When adding new files, keep names descriptive and consistent with existing naming (`PascalCase` for components, `camelCase` for helpers).
+- When the user asks conceptual questions, answer concisely and avoid changing code unless requested.
+- Avoid making changes in `old/` Jekyll files, `Gemfile`, or legacy assets unless the user explicitly references them.
+
+## Testing & Safety
+- Always try to run or reason about `bun run build` implications when adding React or Vite features that may break production.
+- Avoid introducing experimental browser APIs or features that may not work across modern evergreen browsers unless called out to the user.
+
+## Documentation & Comments
+- Keep inline comments short and focused on “why” rather than “what”.
+- When adding or changing behaviors that might not be obvious, add a brief comment or update any nearby documentation if it exists.
+
+

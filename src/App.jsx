@@ -1,12 +1,13 @@
-import './App.css'
+import ProfileSection from './ProfileSection.jsx'
+import MainSection from './MainSection.jsx'
 
 function App() {
   return (
-    <div className="app">
-      <img src="/images/profile.png" alt="David Thomason" className="profile-image" />
-      <h1>David Thomason</h1>
-      <p>Welcome to my website.</p>
-      <p>I am a software engineer</p>
+    <div className="min-h-screen flex flex-col items-center justify-center px-8 text-center">
+      <div className="flex flex-row items-start justify-center gap-12">
+        <ProfileSection />
+        <MainSection />
+      </div>
     </div>
   )
 }
