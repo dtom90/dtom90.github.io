@@ -8,9 +8,9 @@ function ProfileSection() {
           className="w-full h-full max-w-full max-h-full object-cover rounded-full block"
         />
       </div>
-      <h1 className="text-4xl font-bold text-gray-800 mb-4">David Thomason</h1>
-      <p className="text-lg text-gray-600">Welcome to my website.</p>
-      <p className="text-lg text-gray-600">I am a software engineer</p>
+      <h1 className="text-4xl font-bold text-gray-200 mb-4">David Thomason</h1>
+      <p className="text-lg text-gray-400">Welcome to my website.</p>
+      <p className="text-lg text-gray-400">I am a software engineer</p>
     </div>
   )
 }
