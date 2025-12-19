@@ -1,5 +1,5 @@
-import ProfileSection from './ProfileSection.jsx'
-import MainSection from './MainSection.jsx'
+import ProfileSection from './components/ProfileSection.jsx'
+import MainSection from './components/MainSection.jsx'
 
 function App() {
   return (
