@@ -46,7 +46,15 @@
 - Avoid introducing experimental browser APIs or features that may not work across modern evergreen browsers unless called out to the user.
 
 ## Documentation & Comments
-- Keep inline comments short and focused on “why” rather than “what”.
+- Keep inline comments short and focused on "why" rather than "what".
 - When adding or changing behaviors that might not be obvious, add a brief comment or update any nearby documentation if it exists.
+
+## Tailwind Theme Customization
+- **Theme updates**: All theme customizations (colors, typography, spacing, etc.) must be made in `tailwind.config.cjs` under the `theme.extend` object.
+- **Colors**: Use semantic color names in the theme (e.g., `text.primary`, `text.secondary`, `background.primary`) rather than generic color names. Add new colors to the theme instead of using arbitrary values like `text-[#94a3b8]`.
+- **Typography**: Define custom font sizes with line heights in `theme.extend.fontSize` (e.g., `text-heading-1`, `text-body`). Use these custom sizes in components rather than inline font-size styles.
+- **Spacing**: Add custom spacing values to `theme.extend.spacing` when needed for consistency across the app.
+- **Component styling**: Always prefer Tailwind theme classes over inline styles. Use theme color classes (e.g., `text-text-primary`, `bg-background-primary`) instead of hardcoded hex values or generic Tailwind colors.
+- **Avoid**: Do not use inline `style` props for colors, font sizes, or spacing that could be defined in the theme. Only use inline styles for truly dynamic values that cannot be predefined.
 
 

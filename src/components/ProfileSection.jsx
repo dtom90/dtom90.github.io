@@ -1,16 +1,34 @@
 function ProfileSection() {
   return (
-    <div className="flex flex-col items-center">
-      <div className="mb-6 w-[64px] h-[64px] max-w-[64px] max-h-[64px] rounded-full overflow-hidden shrink-0">
-        <img
-          src="/images/profile.png"
-          alt="David Thomason"
-          className="w-full h-full max-w-full max-h-full object-cover rounded-full block"
-        />
-      </div>
-      <h1 className="text-4xl font-bold text-gray-200 mb-4">David Thomason</h1>
-      <p className="text-lg text-gray-400">Welcome to my website.</p>
-      <p className="text-lg text-gray-400">I am a software engineer</p>
+    <div className="flex flex-col py-24 w-[522px]">
+      <h1 className="text-text-primary font-semibold m-0 text-heading-1">
+        <a href="/" className="hover:text-text-secondary transition-colors no-underline">David Thomason</a>
+      </h1>
+      <h2 className="text-text-primary font-normal m-0 text-heading-2 mt-3">
+        Software Engineer
+      </h2>
+      <p className="text-text-primary m-0 text-body mt-4 max-w-[320px]">
+        I build accessible, pixel-perfect digital experiences for the web.
+      </p>
+      <nav>
+        <ul className="flex flex-col list-none p-0 m-0 mt-18">
+          <li>
+            <a href="#about" className="text-text-primary no-underline hover:text-text-secondary transition-colors block text-nav py-3">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#experience" className="text-text-primary no-underline hover:text-text-secondary transition-colors block text-nav py-3">
+              Experience
+            </a>
+          </li>
+          <li>
+            <a href="#projects" className="text-text-primary no-underline hover:text-text-secondary transition-colors block text-nav py-3">
+              Projects
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
   )
 }
