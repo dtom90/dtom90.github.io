@@ -55,6 +55,6 @@
 - **Typography**: Define custom font sizes with line heights in `theme.extend.fontSize` (e.g., `text-heading-1`, `text-body`). Use these custom sizes in components rather than inline font-size styles.
 - **Spacing**: Add custom spacing values to `theme.extend.spacing` when needed for consistency across the app.
 - **Component styling**: Always prefer Tailwind theme classes over inline styles. Use theme color classes (e.g., `text-text-primary`, `bg-background-primary`) instead of hardcoded hex values or generic Tailwind colors.
-- **Avoid**: Do not use inline `style` props for colors, font sizes, or spacing that could be defined in the theme. Only use inline styles for truly dynamic values that cannot be predefined.
+- **No inline styles**: Never use inline `style` props for styling. Always use Tailwind utility classes instead. If a needed utility class doesn't exist, add it to the Tailwind config theme rather than using inline styles. Only use inline styles for truly dynamic runtime values that cannot be predefined (e.g., user-generated content, calculated positions).
 
 
