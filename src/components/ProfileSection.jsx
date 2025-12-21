@@ -1,6 +1,6 @@
 function ProfileSection() {
   return (
-    <div className="flex flex-col px-8">
+    <div className="flex flex-col">
       <h1 className="text-text-primary font-semibold m-0 text-heading-1">
         <a href="/" className="hover:text-text-secondary transition-colors no-underline">David Thomason</a>
       </h1>
