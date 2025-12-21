@@ -6,7 +6,6 @@ function AboutSection() {
     <MarkdownSection
       id="about"
       title="About"
-      titleColor="text-text-primary"
       content={aboutContent}
     />
   )

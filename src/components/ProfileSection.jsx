@@ -1,13 +1,22 @@
 function ProfileSection() {
   return (
     <div className="flex flex-col">
-      <h1 className="text-text-primary font-semibold m-0 text-heading-1">
-        <a href="/" className="hover:text-text-secondary transition-colors no-underline">David Thomason</a>
-      </h1>
-      <h2 className="text-text-primary font-normal m-0 text-heading-2 mt-3">
-        Senior Software Engineer
-      </h2>
-      <p className="text-text-primary m-0 text-body mt-4 max-w-[320px]">
+      <div className="flex items-start gap-4">
+        <img 
+          src="/images/profile.png" 
+          alt="David Thomason" 
+          className="w-20 h-20 rounded-full object-cover flex-shrink-0"
+        />
+        <div className="flex flex-col">
+          <h1 className="text-text-primary font-semibold m-0 text-heading-1">
+            <a href="/" className="hover:text-text-secondary transition-colors no-underline">David Thomason</a>
+          </h1>
+          <h2 className="text-text-primary font-normal m-0 text-heading-2 mt-3">
+            Senior Software Engineer
+          </h2>
+        </div>
+      </div>
+      <p className="text-text-primary m-0 text-body mt-4">
         Full Stack Software Engineer with a passion for building high-quality and scalable applications.
       </p>
       <nav>
