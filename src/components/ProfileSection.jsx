@@ -5,10 +5,10 @@ function ProfileSection() {
         <a href="/" className="hover:text-text-secondary transition-colors no-underline">David Thomason</a>
       </h1>
       <h2 className="text-text-primary font-normal m-0 text-heading-2 mt-3">
-        Software Engineer
+        Senior Software Engineer
       </h2>
       <p className="text-text-primary m-0 text-body mt-4 max-w-[320px]">
-        I build accessible, pixel-perfect digital experiences for the web.
+        Full Stack Software Engineer with a passion for building high-quality and scalable applications.
       </p>
       <nav>
         <ul className="flex flex-col list-none p-0 m-0 mt-18">
