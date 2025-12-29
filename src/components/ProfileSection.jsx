@@ -26,30 +26,37 @@ function ProfileSection() {
       <nav>
         <ul className="flex flex-col list-none p-0 m-0 mt-18">
           <li>
-            <a href="#about" className={`no-underline hover:text-text-secondary transition-colors block text-nav py-3 ${activeSection === 'about' ? 'text-white' : 'text-text-secondary'}`}>
-              About
-            </a>
+            <div className="flex items-center gap-3">
+              <div className={`h-px transition-all ${activeSection === 'about' ? 'w-16 bg-text-primary' : 'w-8 bg-text-secondary'}`}></div>
+              <a href="#about" className={`no-underline hover:text-text-secondary transition-colors block text-nav py-3 ${activeSection === 'about' ? 'text-white' : 'text-text-secondary'}`}>
+                About
+              </a>
+            </div>
           </li>
           <li>
-            <a href="#experience" className={`no-underline hover:text-text-secondary transition-colors block text-nav py-3 ${activeSection === 'experience' ? 'text-white' : 'text-text-secondary'}`}>
-              Experience
-            </a>
+            <div className="flex items-center gap-3">
+              <div className={`h-px transition-all ${activeSection === 'experience' ? 'w-16 bg-text-primary' : 'w-8 bg-text-secondary'}`}></div>
+              <a href="#experience" className={`no-underline hover:text-text-secondary transition-colors block text-nav py-3 ${activeSection === 'experience' ? 'text-white' : 'text-text-secondary'}`}>
+                Experience
+              </a>
+            </div>
           </li>
           <li>
-            <a href="#projects" className={`no-underline hover:text-text-secondary transition-colors block text-nav py-3 ${activeSection === 'projects' ? 'text-white' : 'text-text-secondary'}`}>
-              Projects
-            </a>
-          </li>
-          <li>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="text-text-secondary no-underline hover:text-text-secondary transition-colors block text-nav py-3 flex items-center gap-2">
-              Résumé
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-              </svg>
-            </a>
+            <div className="flex items-center gap-3">
+              <div className={`h-px transition-all ${activeSection === 'projects' ? 'w-16 bg-text-primary' : 'w-8 bg-text-secondary'}`}></div>
+              <a href="#projects" className={`no-underline hover:text-text-secondary transition-colors block text-nav py-3 ${activeSection === 'projects' ? 'text-white' : 'text-text-secondary'}`}>
+                Projects
+              </a>
+            </div>
           </li>
         </ul>
       </nav>
+      <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="text-text-secondary no-underline hover:text-text-secondary transition-colors block text-nav py-3 flex items-center gap-2 mt-18">
+        Résumé
+        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        </svg>
+      </a>
       <div className="flex items-center gap-4 mt-6">
         <a 
           href="https://www.linkedin.com/in/david-thomason-7b347237/" 

@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown'
 function MarkdownSection({ id, content }) {
   return (
     <div className="max-w-xl text-left" id={id}>
+      <div className="h-20 flex-shrink-0"></div>
       <div className="text-body text-text-primary [&>p:not(:last-child)]:mb-3 [&>a]:text-text-secondary [&>a]:hover:text-text-primary [&>a]:transition-colors [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:mb-3 [&_ul>li]:mb-1 [&_ul>li>p]:mb-0 [&_ul_ul]:list-circle [&_ul_ul]:ml-4 [&_ul_ul_ul]:list-square">
         <ReactMarkdown
           components={{
