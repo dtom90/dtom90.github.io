@@ -5,7 +5,6 @@ function AboutSection() {
   return (
     <MarkdownSection
       id="about"
-      title="About"
       content={aboutContent}
     />
   )

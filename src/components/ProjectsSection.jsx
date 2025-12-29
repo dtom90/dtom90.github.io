@@ -5,7 +5,6 @@ function ProjectsSection() {
   return (
     <MarkdownSection
       id="projects"
-      title="Projects"
       content={projectsContent}
     />
   )

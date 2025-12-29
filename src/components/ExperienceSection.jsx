@@ -5,7 +5,6 @@ function ExperienceSection() {
   return (
     <MarkdownSection
       id="experience"
-      title="Experience"
       content={experienceContent}
     />
   )

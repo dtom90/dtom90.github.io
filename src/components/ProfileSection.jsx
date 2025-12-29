@@ -1,4 +1,8 @@
+import { useActiveSectionStore } from '../store/activeSectionStore.js'
+
 function ProfileSection() {
+  const activeSection = useActiveSectionStore((state) => state.activeSection)
+
   return (
     <div className="flex flex-col">
       <div className="flex items-start gap-4">
@@ -22,17 +26,17 @@ function ProfileSection() {
       <nav>
         <ul className="flex flex-col list-none p-0 m-0 mt-18">
           <li>
-            <a href="#about" className="text-text-primary no-underline hover:text-text-secondary transition-colors block text-nav py-3">
+            <a href="#about" className={`no-underline hover:text-text-secondary transition-colors block text-nav py-3 ${activeSection === 'about' ? 'text-white' : 'text-text-secondary'}`}>
               About
             </a>
           </li>
           <li>
-            <a href="#experience" className="text-text-primary no-underline hover:text-text-secondary transition-colors block text-nav py-3">
+            <a href="#experience" className={`no-underline hover:text-text-secondary transition-colors block text-nav py-3 ${activeSection === 'experience' ? 'text-white' : 'text-text-secondary'}`}>
               Experience
             </a>
           </li>
           <li>
-            <a href="#projects" className="text-text-primary no-underline hover:text-text-secondary transition-colors block text-nav py-3">
+            <a href="#projects" className={`no-underline hover:text-text-secondary transition-colors block text-nav py-3 ${activeSection === 'projects' ? 'text-white' : 'text-text-secondary'}`}>
               Projects
             </a>
           </li>
