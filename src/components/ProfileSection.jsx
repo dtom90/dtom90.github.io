@@ -52,10 +52,12 @@ function ProfileSection() {
           </li>
         </ul>
       </nav>
-      <a href="/DavidThomasonRésumé-2026-01-06.pdf" target="_blank" rel="noopener noreferrer" className="no-underline transition-colors block text-nav py-3 flex items-center gap-2 mt-18">
-        Résumé
-        <ExternalLinkIcon className="w-4 h-4" />
-      </a>
+      <div className="flex items-center gap-4 mt-4">
+        <a href="/DavidThomasonRésumé-2026-01-06.pdf" target="_blank" rel="noopener noreferrer" className="no-underline transition-colors block text-nav py-3 flex items-center gap-2 mt-18">
+          Résumé
+          <ExternalLinkIcon className="w-4 h-4" />
+        </a>
+      </div>
       <div className="flex items-center gap-4 mt-6">
         <a 
           href="https://www.linkedin.com/in/david-thomason-7b347237/" 
