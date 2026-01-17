@@ -43,8 +43,26 @@
 
   a {
     color: var(--color-text-primary);
+    position: relative;
+    text-decoration: none;
+    
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background-color: var(--color-text-teal);
+      transition: width 0.3s ease;
+    }
+    
     &:hover {
       color: var(--color-text-teal);
+      
+      &::after {
+        width: 100%;
+      }
     }
   }
 }
