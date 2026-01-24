@@ -28,7 +28,7 @@ function ProjectsSection() {
                   href={project.githubUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-link hover:underline flex items-center gap-2"
+                  className="text-link flex items-center gap-2"
                 >
                   <GitHubIcon className="w-4 h-4" />
                   GitHub
@@ -39,7 +39,7 @@ function ProjectsSection() {
                   href={project.appStoreUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-link hover:underline flex items-center gap-2"
+                  className="text-link flex items-center gap-2"
                 >
                   <AppStoreIcon className="w-4 h-4" />
                   App Store
