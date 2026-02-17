@@ -31,6 +31,30 @@
 }
 
 @layer base {
+  /* Custom scrollbar (brittanychiang.com style): narrow track, light thumb */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-text-secondary) var(--color-background-secondary);
+  }
+
+  *::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: var(--color-background-secondary);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: var(--color-text-secondary);
+    border-radius: 4px;
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background: var(--color-text-primary);
+  }
+
   body {
     font-family: var(--font-family-sans);
     -webkit-font-smoothing: antialiased;
