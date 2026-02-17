@@ -76,7 +76,7 @@
     &::after {
       content: "";
       position: absolute;
-      bottom: 0;
+      bottom: -6px;
       left: 0;
       width: 0;
       height: 1px;
@@ -90,6 +90,10 @@
       &::after {
         width: 100%;
       }
+    }
+
+    &.link-no-underline::after {
+      display: none;
     }
   }
 }
