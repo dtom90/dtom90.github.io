@@ -34,6 +34,19 @@
   --spacing-100: 25rem;
 }
 
+/* Cursor-following radial gradient (brittanychiang.com-style) */
+.cursor-gradient-bg {
+  --mouse-x: 0.5;
+  --mouse-y: 0.5;
+  background:
+    radial-gradient(
+      circle at calc(var(--mouse-x) * 100%) calc(var(--mouse-y) * 100%),
+      rgb(100 255 218 / 0.08) 0%,
+      transparent 40%
+    ),
+    var(--color-background-primary);
+}
+
 @layer base {
   /* Custom scrollbar (brittanychiang.com style): narrow track, light thumb */
   * {
