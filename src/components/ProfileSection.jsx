@@ -38,7 +38,7 @@ function ProfileSection() {
             <div className="flex items-center gap-3">
               <div className={`h-px transition-all ${activeSection === 'experience' ? 'w-16 bg-text-primary' : 'w-8 bg-text-secondary'}`}></div>
               <a href="#experience" className={`no-underline transition-colors block text-nav my-3 hover:text-text-link ${activeSection === 'experience' ? 'text-text-primary' : 'text-text-secondary'}`}>
-                Experience
+                Professional Experience
               </a>
             </div>
           </li>
@@ -46,7 +46,7 @@ function ProfileSection() {
             <div className="flex items-center gap-3">
               <div className={`h-px transition-all ${activeSection === 'projects' ? 'w-16 bg-text-primary' : 'w-8 bg-text-secondary'}`}></div>
               <a href="#projects" className={`no-underline transition-colors block text-nav my-3 hover:text-text-link ${activeSection === 'projects' ? 'text-text-primary' : 'text-text-secondary'}`}>
-                Projects
+                Independent Projects
               </a>
             </div>
           </li>

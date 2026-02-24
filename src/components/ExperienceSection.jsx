@@ -5,7 +5,7 @@ function ExperienceSection() {
   return (
     <div className="max-w-xl text-left" id="experience">
       <div className="h-20 flex-shrink-0"></div>
-      <div className="text-heading-2 font-semibold mb-8 text-text-primary">Experience</div>
+      <div className="text-heading-2 font-semibold mb-8 text-text-primary">Professional Experience</div>
       <div className="text-body text-text-secondary [&>p:not(:last-child)]:mb-3 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:mb-3 [&_ul>li]:mb-1 [&_ul>li>p]:mb-0 [&_ul_ul]:list-circle [&_ul_ul]:ml-4 [&_ul_ul_ul]:list-square">
         {experience.map((entry, index) => (
           <div key={index} className="mb-12">
