@@ -16,7 +16,7 @@ function App() {
       ref={gradientRef}
       className="cursor-gradient-bg min-h-screen flex flex-col items-center justify-center"
     >
-      <div className="flex flex-col md:flex-row items-start justify-between gap-12 w-full max-w-full md:w-screen h-screen max-h-screen px-8 md:px-0 overflow-y-auto md:overflow-hidden">
+      <div className="flex flex-col md:flex-row items-start justify-between gap-12 w-full max-w-full md:w-screen h-screen max-h-screen px-8 md:px-0 overflow-y-auto md:overflow-hidden scroll-smooth">
         <div className="flex-1 min-w-0 md:max-w-[50%] md:h-full md:overflow-y-auto flex flex-col md:pl-8">
           <div className="max-w-xl md:ml-auto pt-20">
             <ProfileSection />
@@ -24,7 +24,7 @@ function App() {
         </div>
         <div
           ref={scrollContainerRef}
-          className="flex flex-col md:overflow-y-auto flex-[0_0_50%] min-w-0 md:h-full md:pr-8"
+          className="flex flex-col md:overflow-y-auto flex-[0_0_50%] min-w-0 md:h-full md:pr-8 scroll-smooth"
         >
           <div className="max-w-xl">
             <AboutSection />
