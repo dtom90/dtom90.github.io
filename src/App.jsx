@@ -26,7 +26,7 @@ function App() {
           ref={scrollContainerRef}
           className="flex flex-col md:overflow-y-auto flex-[0_0_50%] min-w-0 md:h-full md:pr-8"
         >
-          <div className="max-w-xl pt-20">
+          <div className="max-w-xl">
             <AboutSection />
             <ExperienceSection />
             <ProjectsSection />
