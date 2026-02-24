@@ -1,0 +1,19 @@
+---
+description: Check terminals for existing dev server before starting a new one
+alwaysApply: true
+---
+
+# Check Terminals Before Starting Dev Server
+
+Before starting a dev server (e.g. `bun run dev`, `npm run dev`, `vite`) or opening the app in the browser:
+
+1. **Check if the app is already running** by reading the Cursor terminals folder:
+   - Path: `.cursor/projects/<project-id>/terminals/` (or the `terminals` path from context).
+   - List or read the terminal files (e.g. `1.txt`, `2.txt`) to see `active_command` and `cwd`.
+   - If any terminal shows the dev command already running (e.g. `npm run dev`, `bun run dev`) and Vite/ dev output (e.g. `Local: http://localhost:5173/`), **do not start another dev server**.
+
+2. **If already running**: Open the app URL in the browser (e.g. `http://localhost:5173/`) or tell the user the app is already running and at which URL.
+
+3. **If not running**: Start the dev server (in the background if appropriate), then open the URL once ready.
+
+This avoids duplicate dev processes and "port in use" errors.
